@@ -335,9 +335,9 @@ abstract contract ERC314 is IEERC314{
 }
 
 
-contract TestToken is ERC314 {
+contract NameCa is ERC314 {
     uint256 private _totalSupply = 1_000_000 * 10 ** 18;
 
-    constructor() ERC314("TestToken", "TT", _totalSupply) {
+    constructor() ERC314("Name_token", "Symbol_token", _totalSupply) {
     }
 }
